@@ -1,0 +1,12 @@
+type Mutation {
+  login(userInput: UserInput): AuthPayload
+}
+
+input UserInput {
+  userName: String!
+  password: String!
+}
+
+type AuthPayload {
+  token: String!
+}
