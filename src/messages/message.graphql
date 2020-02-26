@@ -1,0 +1,20 @@
+type Message {
+  id: ID!
+  content: String!
+  roomID: String!
+  createdBy: String!
+  createdAt: Float!
+}
+
+type Mutation {
+  createMessage(message: MessageInput!): Message
+}
+
+type Subscription {
+  messageCreated(roomID: String!): Message
+}
+
+input MessageInput {
+  roomID: String!
+  content: String!
+}

@@ -21,13 +21,14 @@
     "@nestjs/platform-express": "^6.7.2",
     "apollo-server": "^2.10.0",
     "bcrypt": "^4.0.0",
+    "c": "^1.1.0",
     "graphql": "^14.6.0",
-    "graphql-subscriptions": "^1.1.0",
     "graphql-tools": "^4.0.6",
     "jsonwebtoken": "^8.5.1",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.0",
     "rxjs": "^6.5.3",
+    "subscriptions-transport-ws": "^0.9.16",
     "uuid": "^7.0.0"
   },
   "resolutions": {
